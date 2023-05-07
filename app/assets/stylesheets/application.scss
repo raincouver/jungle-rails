@@ -111,3 +111,13 @@ form.button_to {
 .text-danger {
   color: #f38792 !important;
 }
+
+.signed-in-nav {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.55);
+  margin-left: 10px;
+}
+li {
+  display: flex;
+  align-items: center;
+}

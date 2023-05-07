@@ -1,3 +1,27 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+main section.signup-new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+
+
+    input#email,
+    input#password {
+      max-width: 70vw;
+    }
+
+    input.btn {
+      margin-top: 30px;
+      width: 150px;
+      align-self: flex-end;
+    }
+  }
+}

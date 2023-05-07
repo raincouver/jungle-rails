@@ -3,9 +3,9 @@ Rails.application.routes.draw do
   get 'about/index'
   root to: 'products#index'
 
-  get '/login' => 'session#new'
-  get '/logout' => 'session#destory'
-  post '/login' => 'session#create'
+  get '/login' => 'sessions#new'
+  get '/logout' => 'sessions#destroy'
+  post '/login' => 'sessions#create'
 
   get '/signup' => 'users#new'
   post '/users' => 'users#create'
