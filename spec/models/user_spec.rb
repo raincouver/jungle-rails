@@ -131,7 +131,10 @@ RSpec.describe User, type: :model do
       expect(@testUser).to eq(@user)
     end
 
-
+    it 'passes authentication when email entered with extra spaces before and after' do
+      @testUser = User.authenticate_with_credentials("   LImING1@HOTmail.CoM   ", "1234567890")
+      expect(@testUser).to eq(@user)
+    end
   end
 
 end
