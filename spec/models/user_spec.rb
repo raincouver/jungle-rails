@@ -135,6 +135,27 @@ RSpec.describe User, type: :model do
       @testUser = User.authenticate_with_credentials("   LImING1@HOTmail.CoM   ", "1234567890")
       expect(@testUser).to eq(@user)
     end
+
+    it 'fails authentication and return nil when email entered wrong' do
+      @testUser = User.authenticate_with_credentials("   LImING@HOTmail.CoM   ", "1234567890")
+      expect(@testUser).to eq(nil)
+    end
+
+    it 'fails authentication and return nil when email is not entered' do
+      @testUser = User.authenticate_with_credentials("   ", "1234567890")
+      expect(@testUser).to eq(nil)
+    end
+
+    it 'fails authentication and return nil when password is entered wrong' do
+      @testUser = User.authenticate_with_credentials("liming1@hotmail.com", "123456789")
+      expect(@testUser).to eq(nil)
+    end
+
+    it 'fails authentication and return nil when password is not entered' do
+      @testUser = User.authenticate_with_credentials("liming1@hotmail.com", "")
+      expect(@testUser).to eq(nil)
+    end
+
   end
 
 end
