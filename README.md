@@ -14,9 +14,10 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 ## Table of Content
 - [🌟 Features](#-features)
 - [🚀 Getting Started](#-getting-started)
+  - [Set up](#set-up) 
   - [Database](#database) 
   - [Stripe Testing](#stripe-testing)
-  [🔨 Dependencies](#-Dependencies)
+- [🔨 Dependencies](#-Dependencies)
 
 ## 🌟 Features
 
