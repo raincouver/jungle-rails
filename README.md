@@ -1,4 +1,4 @@
-# Jungle
+# Jungle 🖥🌱🌐
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example. It simulates an existing website built using Rails, allowing you to become familiar with the project by browsing through existing files, and then develop new features and test related functionality using both Rails and Cypress platforms.
 
