@@ -21,16 +21,16 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 ## 🌟 Features
 
-### Home Page Demo
+### Home Page
 ![](https://github.com/raincouver/jungle-rails/blob/master/public/gifs/home_page.gif)
 
-### User Auth Demo
+### User Auth
 ![](https://github.com/raincouver/jungle-rails/blob/master/public/gifs/user_auth.gif)
 
-### Cart Demo
+### Cart
 ![](https://github.com/raincouver/jungle-rails/blob/master/public/gifs/cart.gif)
 
-### Payments Demo
+### Payments
 ![](https://github.com/raincouver/jungle-rails/blob/master/public/gifs/payments.gif)
 
 ## 🚀 Getting Started
