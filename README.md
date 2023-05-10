@@ -1,4 +1,4 @@
-# Jungle 🖥🌱🌐
+# Jungle 🌱
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example. It simulates an existing website built using Rails, allowing you to become familiar with the project by browsing through existing files, and then develop new features and test related functionality using both Rails and Cypress platforms.
 
@@ -20,6 +20,18 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 - [🔨 Dependencies](#-Dependencies)
 
 ## 🌟 Features
+
+### Home Page Demo
+![](https://github.com/raincouver/jungle-rails/blob/master/public/gifs/home_page.gif)
+
+### User Auth Demo
+![](https://github.com/raincouver/jungle-rails/blob/master/public/gifs/user_auth.gif)
+
+### Cart Demo
+![](https://github.com/raincouver/jungle-rails/blob/master/public/gifs/cart.gif)
+
+### Payments Demo
+![](https://github.com/raincouver/jungle-rails/blob/master/public/gifs/payments.gif)
 
 ## 🚀 Getting Started
 
