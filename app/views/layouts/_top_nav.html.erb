@@ -55,7 +55,7 @@
                     <% if current_user %>
                       <span class="signed-in-nav"> Hi, <%= current_user.first_name %> <%= current_user.last_name %>  | </span> 
                   <li>
-                    <%= link_to "log out" , '/logout' , class:"nav-link" %>
+                    <%= link_to "Log out" , '/logout' , class:"nav-link" %>
                   </li>
                   <% else %>
                     <%= link_to 'Login' , '/login' , class: "nav-link" %>
